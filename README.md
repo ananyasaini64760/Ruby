@@ -61,12 +61,18 @@ puts name.gsub("anya", "i")
 
 ---
 
-Debugging Lessons Learned
-	•	Typos matter → pits vs puts, bbok vs book.
-	•	Array methods are dot methods (.each not each).
-	•	times must be called on a number.
-	•	String interpolation must be inside quotes ("#{key}" not #{key}).
-	•	Be careful between array of hashes ([ { ... } ]) and a single hash ({ ... }).
-	•	reset or Ctrl+C can escape nested prompts in IRB.
+## **Debugging Lessons Learned**
+	Typos matter → pits vs puts, bbok vs book.
+ 
+	Array methods are dot methods (.each not each).
+ 
+	times must be called on a number.
+ 
+	String interpolation must be inside quotes ("#{key}" not #{key}).
+ 
+	Be careful between array of hashes ([ { ... } ]) and a single hash ({ ... }).
+ 
+	reset or Ctrl+C can escape nested prompts in IRB.
 
+---
 
